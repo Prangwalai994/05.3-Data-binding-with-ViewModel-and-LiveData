@@ -19,9 +19,8 @@
     xmlns:tools="http://schemas.android.com/tools">
 
     <data>
-
         <variable
-            name="gameViewModel"
+            name="gameViewModelx"
             type="com.example.android.guesstheword.screens.game.GameViewModel" />
     </data>
 
@@ -54,6 +53,7 @@
             android:layout_height="wrap_content"
             android:animateLayoutChanges="true"
             android:fontFamily="sans-serif"
+            android:text="@{gameViewModel.word}"
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:textColor="@color/black_text_color"
             android:textSize="34sp"
